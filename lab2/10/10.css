@@ -1,0 +1,100 @@
+.myTitle {
+	font-family: 'Title', cursive;
+	font-weight: 600;
+	font-style: italic;
+}
+
+h2 {
+	font-size: 0.8em;
+}
+
+.button {
+	padding: 10px;
+	border-radius: 4px;
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	background-color: darkorange;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+#animated_div1 {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	color: pink;
+	position: relative;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#animated_div2 {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	color: pink;
+	position: relative;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+#animated_div3 {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	color: pink;
+	position: relative;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+
+#animated_div4 {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	color: pink;
+	position: relative;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+
+#animated_div5 {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	color: pink;
+	position: relative;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}

@@ -1,0 +1,19 @@
+ul li {
+	background: blue;
+}
+
+li + #thirditem {
+	background: yellow;
+}
+
+Ul #thirditem {
+	background: green;
+}
+
+h2 {
+	font-size: 0.8em;
+}
+
+h3 {
+	font-size: 0.8rem;
+}
