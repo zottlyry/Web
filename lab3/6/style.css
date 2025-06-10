@@ -1,0 +1,20 @@
+#wrapper {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+#sectionA {
+    background: rgb(124, 187, 124);
+    width: 33%;
+}
+
+#sectionB {
+    background: rgb(213, 124, 60);
+    width: 33%;
+}
+
+#sectionC {
+    background: rgb(78, 0, 120);
+    width: 33%;
+}

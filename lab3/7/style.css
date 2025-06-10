@@ -1,0 +1,54 @@
+.wrapper_glav {
+    display: flex;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.section1 {
+    background: red;
+    border-radius: 50px;
+    padding: 70px 170px 150px 190px;
+    font-weight: bold;
+}
+.section2 {
+    background: blue;
+    border-radius: 50px;
+    padding: 70px 170px 150px 170px;
+    font-weight: bold;
+}
+
+.section3 {
+    background: blue;
+    border-radius: 20px;
+    padding: 15px 90px 86px 100px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.section4 {
+    background: yellow;
+    border-radius: 20px;
+    padding: 15px 90px 86px 90px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.section5 {
+    background: red;
+    border-radius: 20px;
+    padding: 15px 90px 86px 90px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.section6 {
+    background: black;
+    border-radius: 20px;
+    padding: 15px 90px 86px 90px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+#wrapper {
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+#sidebar {
+    width: 30%;
+    background: rgb(160, 159, 159);
+}
+
+#content {
+    width: 70%;
+    background: rgb(35, 108, 37);
+}

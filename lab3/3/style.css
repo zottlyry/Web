@@ -1,0 +1,11 @@
+p {
+    float: left;
+    padding-left: 20px;
+    font-size: 20pt;
+    margin-top: 0;
+}
+
+img {
+    float: left;
+    width: 450px;
+}
