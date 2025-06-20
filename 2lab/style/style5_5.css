@@ -1,0 +1,10 @@
+ul li {
+	background: blue;
+}
+
+li + #thirditem {
+	background: yellow;
+}
+li + #thirditem{
+    background-color: green;
+}

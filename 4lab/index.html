@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>2048</h1>
+            <div class="score-container">
+                <div class="score-title">SCORE</div>
+                <div class="score-value">0</div>
+            </div>
+        </div>
+        <div class="game-info">
+            <p>Объединяйте одинаковые числа, чтобы получить 2048!</p>
+            <button class="new-game-btn">Новая игра</button>
+        </div>
+        <div class="grid-container"></div>
+        <div class="game-overlay hidden">
+            <div class="overlay-content">
+                <h2 class="overlay-title"></h2>
+                <button class="overlay-btn">Играть снова</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    gap: 0 10px;
+
+}
+.text{
+    font-size: 23px;
+}

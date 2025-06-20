@@ -1,0 +1,15 @@
+h2{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    background-color: blue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.counteiner{
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 0 20px 10px;
+    background-color: gray;
+}

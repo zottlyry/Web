@@ -1,0 +1,17 @@
+.flex__countainer{
+    display: flex;
+    max-width: 1000px;
+    min-height: 100px;
+}
+.box{
+    padding: 10px;
+}
+.sidebar{
+    background-color: gray;
+    flex-basis: 300px;
+}
+.content{
+    background-color: rgb(24, 75, 0);
+    flex-basis: 700px;
+
+}

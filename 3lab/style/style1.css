@@ -1,0 +1,32 @@
+body {
+    background: gray;
+}
+.counteiner{
+    background-color: chocolate;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.first__box{
+    position: relative;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: -10px;
+}
+.small__first-box{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    right: 10px;
+}
+.second__box{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}

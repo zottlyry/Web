@@ -1,0 +1,13 @@
+.drinks_cola{
+    list-style-type: lower-latin;
+}
+.pepsi{
+    list-style-type: square;
+}
+.Heathy{
+    list-style-type: armenian;
+}
+.Web-developer{
+    list-style-type: none;
+    padding: 0;
+}

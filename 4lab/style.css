@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf8ef;
+    color: #776e65;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game-container {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-header h1 {
+    font-size: 80px;
+    margin: 0;
+    color: #776e65;
+}
+
+.score-container {
+    background: #bbada0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.score-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.score-value {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.new-game-btn {
+    background: #8f7a66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.new-game-btn:hover {
+    background: #9f8b77;
+}
+
+.grid-container {
+    background: #bbada0;
+    border-radius: 6px;
+    padding: 15px;
+    position: relative;
+    height: 450px;
+    width: 450px;
+}
+
+.grid-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.grid-row:last-child {
+    margin-bottom: 0;
+}
+
+.grid-cell {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    background: rgba(238, 228, 218, 0.35);
+    border-radius: 3px;
+    position: relative;
+}
+
+.grid-cell:last-child {
+    margin-right: 0;
+}
+
+.tile {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: #776e65;
+    background: #eee4da;
+    z-index: 10;
+    transition: all 0.1s ease-in-out;
+}
+
+.tile-2 {
+    background: #eee4da;
+}
+
+.tile-4 {
+    background: #ede0c8;
+}
+
+.tile-8 {
+    background: #f2b179;
+    color: white;
+}
+
+.tile-16 {
+    background: #f59563;
+    color: white;
+}
+
+.tile-32 {
+    background: #f67c5f;
+    color: white;
+}
+
+.tile-64 {
+    background: #f65e3b;
+    color: white;
+}
+
+.tile-128 {
+    background: #edcf72;
+    color: white;
+    font-size: 45px;
+}
+
+.tile-256 {
+    background: #edcc61;
+    color: white;
+    font-size: 45px;
+}
+
+.tile-512 {
+    background: #edc850;
+    color: white;
+    font-size: 45px;
+}
+
+.tile-1024 {
+    background: #edc53f;
+    color: white;
+    font-size: 35px;
+}
+
+.tile-2048 {
+    background: #edc22e;
+    color: white;
+    font-size: 35px;
+}
+
+.tile-super {
+    background: #3c3a32;
+    color: white;
+    font-size: 30px;
+}
+
+.tile-new {
+    animation: appear 0.2s;
+}
+
+.tile-merged {
+    animation: pop 0.2s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.game-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(238, 228, 218, 0.73);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.game-overlay.hidden {
+    display: none;
+}
+
+.overlay-content {
+    background: #bbada0;
+    padding: 30px;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+}
+
+.overlay-title {
+    font-size: 60px;
+    margin: 0 0 20px;
+}
+
+.overlay-btn {
+    background: #8f7a66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.overlay-btn:hover {
+    background: #9f8b77;
+}
